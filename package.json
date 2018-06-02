@@ -1,6 +1,6 @@
 {
   "name": "@datagica/backend-source",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "backend source base class",
   "main": "./src/index.js",
   "scripts": {
@@ -8,6 +8,9 @@
   },
   "author": "Julian Bilcke <julian.bilcke@datagica.com>",
   "license": "GPL-3.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "murmurhash-v3": "^1.0.2"
   },
